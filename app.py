@@ -36,6 +36,14 @@ app.layout = dbc.Container([
                               '''),
                 html.P('The CII is a crucial part of the IMO\'s strategy to achieve a 40 percent reduction in carbon intensity by 2030 and a 70 percent reduction by 2050 compared to 2008 levels.')
         ])
+    ]),
+    dbc.Row([
+        dbc.Col([
+            dbc.Row([]),
+            dbc.Row([]),
+            dbc.Row([])
+        ]),
+        dbc.Col()
     ])
 ])
 
